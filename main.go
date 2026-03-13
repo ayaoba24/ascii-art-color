@@ -44,7 +44,7 @@ func main() {
 
 
 func getValidColor(colorName string) string {
-	validColors := []string{"black", "red", "green", "yellow", "blue", "magenta", "cyan", "white"}
+	validColors := []string{"black", "red", "green", "yellow", "blue",  "cyan", "white"}
 
 	for {
 		colorCode := branch.Color(colorName)

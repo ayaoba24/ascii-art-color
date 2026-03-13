@@ -18,7 +18,6 @@ func AsciiArt(text, subString, color string, banner []string) string {
 				ascii_art := banner[index+row]
 
 				if SubString(line, subString, i) && color != "" {
-					// color is assigned, highlight substring
 					strBuilder.WriteString(color + ascii_art + Reset)
 				} else {
 					strBuilder.WriteString(ascii_art)
